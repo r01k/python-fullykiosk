@@ -5,16 +5,16 @@ from setuptools import find_packages, setup
 
 PROJECT_DIR = Path(__file__).parent.resolve()
 README_FILE = PROJECT_DIR / "README.md"
-VERSION = "0.0.11"
+VERSION = "0.0.511"
 
 
 setup(
     name="python-fullykiosk",
     version=VERSION,
-    url="https://github.com/cgarwood/python-fullykiosk",
-    download_url="https://github.com/cgarwood/python-fullykiosk",
-    author="Charles Garwood",
-    author_email="cgarwood@gmail.com",
+    url="https://github.com/r01k/python-fullykiosk",
+    download_url="https://github.com/r01k/python-fullykiosk",
+    author="r01k",
+    author_email="srmycall@yahoo.com",
     description="Python wrapper for Fully Kiosk Browser REST API",
     long_description=README_FILE.read_text(encoding="utf-8"),
     long_description_content_type="text/markdown",
